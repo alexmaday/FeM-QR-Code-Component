@@ -49,8 +49,8 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Author
 
-- Website - [Add your name here](https://github.com/alexmaday)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alexmaday)
+- Website - [Alex Maday's Github](https://github.com/alexmaday)
+- Frontend Mentor - [@alexmaday](https://www.frontendmentor.io/profile/alexmaday)
 
 ## Acknowledgments and Licensing
 
