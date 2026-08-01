@@ -1,9 +1,15 @@
-/* COLORS */
 :root {
+  /* COLORS */
   --col-white: hsl(0, 0%, 100%);
   --col-slate-300: hsl(212, 46%, 89%);
   --col-slate-500: hsl(216, 15%, 48%);
   --col-slate-900: hsl(218, 44%, 22%);
+
+  /* SIZING */
+  --padding-sm: 0.9rem;
+  --padding-md: 1.06rem;
+  --padding-lg: 1.2rem;
+  --border-radius: 15px;
 }
 * {
   box-sizing: border-box;
@@ -31,7 +37,7 @@ p {
 }
 h1,
 p {
-  padding-inline: 0.9rem;
+  padding-inline: var(--padding-sm);
   margin-block-end: 20px;
 }
 .container {
@@ -46,16 +52,16 @@ p {
 .card {
   max-width: 320px;
   background-color: var(--col-white);
-  border-radius: 15px;
-  padding: 17px;
+  border-radius: var(--border-radius);
+  padding: var(--padding-md);
 }
 img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: var(--border-radius);
   box-shadow: 1px 1px 1px -1px var(--col-slate-900);
 }
 .attribution {
-  padding: 1.2rem;
+  padding: var(--padding-lg);
   font-size: 0.6875rem;
   text-align: center;
   color: hsl(228, 45%, 44%);
