@@ -12,6 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [My process](#my-process)
     - [Built with](#built-with)
     - [Continued development](#continued-development)
+    - [What I learned](#what-i-learned)
   - [Author](#author)
   - [Acknowledgments and Licensing](#acknowledgments-and-licensing)
 
@@ -37,7 +38,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Continued development
 
-I look forward to working with more flexbox and grid layouts. I've recently been introduced to using custom properties which I use for colors and I anticipate more use cases as well. I consciously worked on using the right length units for the job. For instance, I used `rem`s for typography and `px` for more static attributes such as border radius.
+I look forward to using both flexbox and grid for layouts. I want to get to the point where I have an intuitive sense of how each one works and using the right approach depending on the situation.
+
+I also want to get more experience building projects that are accessible.There's a lot to learn - much, much more than alt text.
+
+### What I learned
+
+**Custom properties** promote consistency and aid in reuse. I define these properties as part of the `:root` ruleset. These are some properties that I made into variables:
+
+- `color` - Instead of having to remember hex codes, or `hsl` or `rgb`, I can define my color palette using sensible names.
+- `border-radius` - All my radii will have the same value
+- `padding` - I learned what that I could create a set of padding values consisting of small, medium and large. These _spacing tokens_ were easy to create and promote consistency and maintainability.
 
 ## Author
 
